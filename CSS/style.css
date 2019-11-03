@@ -1,8 +1,12 @@
 body
 {
-	margin: 50px 5%;
+	margin: 50px 5% 0px 5%;
 	background-color: #444444;
 	font-family: "Arial";
+}
+article
+{
+	background-color: #FFFFFF;
 }
 #headline
 {
@@ -48,13 +52,8 @@ body
 	width: 30%;
 	float: right;
 }
-.MainContent
-{
-	background-color: #FFFFFF;
-}
 #headerMain
 {
-	overflow: hidden;
 	text-align: center;
 	margin: 20px 2%;
 	padding: 5px;
@@ -63,20 +62,17 @@ body
 {
 	clear: both;
 	text-align: center;
-	border: 3px solid #000000;
 	margin: 20px 2%;
-	
 }
-
 #p1Main
 {
 	border: 3px solid #000000;
 	margin: 20px 25%;
+	padding: 5px;
 	font-size: 1.25em;
 	text-align: center;
 	width: 50%;
 }
-
 #p2Main
 {
 	border: 3px solid #000000;
@@ -96,23 +92,16 @@ body
 	margin: 20px 2%;
 	float: right;
 }
-.MainContent footer
+footer
 {
-	text-align: right;
+	text-align: center;
 	padding: 5px 5px;
-}
-
-.SecondaryContent
-{
-	background-color: #FFFFFF;
 }
 #headerSecondary
 {
-	overflow: hidden;
 	text-align: center;
 	padding: 5px;
 }
-
 #p1Secondary
 {
 	border: 3px solid #000000;
@@ -122,7 +111,6 @@ body
 	margin: 20px 2%;
 	display: inline-block;
 }
-
 #p2Secondary
 {
 	border: 3px solid #000000;
@@ -132,20 +120,17 @@ body
 	margin: 20px 2%;
 	float: right;
 }
-
 #subheaderSecondary
 {
 	clear: both;
 	text-align: center;
 	font-size: 1.3em;
 }
-
 .SecondaryContent img
 {
 	width: 35%;
 	float: right;
 }
-
 #p3Secondary
 {
 	border: 3px solid #000000;
@@ -172,7 +157,6 @@ body
 	padding: 5px;
 	margin: 20px 10%;
 }
-
 #img1Secondary
 {
 	width: 15%;
@@ -181,18 +165,10 @@ body
 {
 	text-align: center;
 }
-.SecondaryContent footer
-{
-	text-align: right;
-	padding: 5px 5px;
-}
-.sport ul
-{
-	list-style-type: none;
-}
 .sport li
 {
 	border: 3px solid #000000;
+	list-style-type: none;
 	width: 40%;
 	overflow: hidden;
 	padding: 5px;
@@ -208,7 +184,44 @@ body
 	width: 35%;
 	float: right;
 }
-.sport
+.sport h2
 {
-	background-color: #FFFFFF;
+	text-align: center;
+	padding: 5px;
+}
+.referal h2
+{
+	text-align: center;
+	padding: 5px 5px 0px 5px;	
+}
+.referal p
+{
+	padding: 5px;
+	margin: 10px 2%;
+}
+.referal footer
+{
+	text-align: right;
+}
+.contact
+{
+	background-color: #AAAAAA;	
+}
+.contact header
+{
+	text-align: center;
+}
+.contact form
+{
+	margin: 5px 44%;
+}
+#button
+{
+	display: block;
+	margin: 5px 0;
+}
+#footer
+{
+	color: #FFFFFF;
+	text-align: right;
 }
