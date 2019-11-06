@@ -11,45 +11,37 @@
 		type = "text/css"
 		href = "../css/style.css"
 		/>
-
+	</head>
 	<body>
+		<video autoplay muted loop id="achtergrond">
+			<source src="../video/achtergrond.mp4" type="video/mp4">
+			<source src="../video/achtergrond.ogg" type="video/ogg">
+			Jou browser ondersteunt geen HTML5 video.
+		</video>
+		<input type="checkbox" id="checkbox" name="checkbox">
+		<footer class="cookies">
+			<p>
+				Deze website maakt gebruik van cookies!
+				<label for="checkbox">Cookies accepteren</label>
+			</p>
+		</footer>
+		<!--Header-->
 		<header class="header">
 			<h1 id="headline">Fanatiek Hoofddorp</h1>
 			<h2 id="payoff">Alles over de hoofdplaats van het Haarlemmermeer</h2>
 			<nav>
-				<h4>
-					<ul>
-						<li>
-							<a href="#maincontent">
-								Hoofddorp
-							</a>
-						</li>
-						<li>
-							<a href="#secondarycontent">
-								Floriande
-							</a>
-						</li>
-						<li>
-							<a href="#sportcontent">
-								Sportclubs in Floriande
-							</a>
-						</li>
-						<li>
-							<a href="#referalcontent">
-								Hwa-Rang Dragon
-							</a>
-						</li>
-						<li>
-							<a href="#contactcontent">
-								Contact
-							</a>
-						</li>
-					</ul>
-				</h4>
-			</nav>
+				<ul>
+					<li><a href="#maincontent">Hoofddorp</a></li>
+					<li><a href="#secondarycontent">Floriande</a></li>
+					<li><a href="#sportcontent">Sportclubs in Floriande</a></li>	
+					<li><a href="#referalcontent">Hwa-Rang Dragon</a></li>	
+					<li><a href="#contactcontent">Contact</a></li>
+				</ul>	
+			</nav>			
 		</header>
-		<section>
-			<article class="MainContent">
+		<!--MainContent-->
+		<section class="MainContent">
+			<article>
 				<header>
 					<a name="maincontent">
 						<h2 id="headerMain">Hoofddorp</h2>
@@ -80,8 +72,9 @@
 				</footer>
 			</article>
 		</section>
-		<section>
-			<article class="SecondaryContent">
+		<!--SecondaryContent-->
+		<section class="SecondaryContent">
+			<article>
 				<header>
 					<a name="secondarycontent">
 						<h2 id="headerSecondary">Over Floriande</h2>
@@ -96,6 +89,13 @@
 				<h3 id="subheaderSecondary">
 					Diverse activiteiten 
 				</h3>
+				<p id="p5Secondary">
+					<img 
+						id="img1Secondary" src="../img/Sporten.png"
+						title="Verschillende sporten" alt="Een foto van verschillende sportactiviteiten"
+					/>
+					Vernoemd naar onze sportieve koning van Nederland, vindt je op loopafstand het Willem Alexander sportcomplex. Het complex heeft biedt een ruim aanbod aan sportfaciliteiten, waaronder turnen, zaalvoetbal, basketbal, judo, synchroonzwemmen, duiken, waterpolo, onderwaterhockey, wedstrijdzwemmen, badminton en ritmisch gym. Naast de lessen die hier voor gevorderden spelers worden georganiseerd, is het sportcomplex ook een zeer geschikte locatie voor een heerlijk middagje ontspanning en plezier. Daarnaast is het mogelijk om hier kinderfeestjes te organiseren waarbij gekozen kan worden tussen zeemeerminzwemmen, splashballen en onderwaterscooters.
+				</p>
 				<p id="p3Secondary">
 					<img 
 						src="../img/HaarlemmermeerseBos.png"
@@ -106,13 +106,7 @@
 				<p id="p4Secondary">
 					Aan de andere kant van het kanaal IJtocht, vindt je op een kleine 8 minuten rijden van Floriande de Escape World Hoofddorp. Met een keuze uit vier kamers, zijn de escape rooms zowel geschikt voor startende spelers als de experts. Aan jou de taak om met het team de puzzel binnen 60 minuten op te lossen. Een uitdagende game voor jong en oud.
 				</p>
-				<p id="p5Secondary">
-					<img 
-						id="img1Secondary" src="../img/Sporten.png"
-						title="Verschillende sporten" alt="Een foto van verschillende sportactiviteiten"
-					/>
-					Vernoemd naar onze sportieve koning van Nederland, vindt je op loopafstand het Willem Alexander sportcomplex. Het complex heeft biedt een ruim aanbod aan sportfaciliteiten, waaronder <i>turnen, zaalvoetbal, basketbal, judo, synchroonzwemmen, duiken, waterpolo, onderwaterhockey, wedstrijdzwemmen, badminton en ritmisch gym.</i> Naast de lessen die hier voor gevorderden spelers worden georganiseerd, is het sportcomplex ook een zeer geschikte locatie voor een heerlijk middagje ontspanning en plezier. Daarnaast is het mogelijk om hier kinderfeestjes te organiseren waarbij gekozen kan worden tussen <i>zeemeerminzwemmen, splashballen en onderwaterscooters.</i> 
-				</p>
+				
 				<p id="p6Secondary">
 					Tot ziens in Floriande, Hoofddorp! 
 				</p>
@@ -120,10 +114,10 @@
 					Zoek je meer informatie over Floriande&#63; Klik <a href="https://allecijfers.nl/buurt/hoofddorp-floriande-west-haarlemmermeer/">hier</a>.
 				</footer>
 			</article>
-			
 		</section>
-		<section>
-			<article class="sport">
+		<!--sportcontent-->
+		<section class="sport">
+			<article>
 				<header>
 					<a name="sportcontent">
 						<h2>Sportclubs in Floriande</h2>
@@ -258,8 +252,9 @@
 				</footer>
 			</article>
 		</section>
-		<section>
-			<article class="referal">
+		<!--referalcontent-->
+		<section class="referal">
+			<article>
 				<header>
 					<a name="referalcontent">
 						<h2>Hwa-Rang Dragon</h2>
@@ -281,8 +276,9 @@
 				</footer>
 			</article>
 		</section>
-		<section>
-			<article class="contact">
+		<!--contactcontent-->
+		<section class="contact">
+			<article>
 				<header>
 					<a name="contactcontent">
 						<h2>Contact</h2>
@@ -314,8 +310,9 @@
 				</fieldset>
 			</article>
 		</section>
+		<!--footer-->
 		<footer id="footer">
 			&copy; John Bond 2019
 		</footer>
 	</body>
-	</head>
+</html>
